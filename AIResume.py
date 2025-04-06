@@ -6,7 +6,7 @@ import io
 import os
 
 # Set your OpenAI API key here or load from environment variable
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_text_from_file(uploaded_file):
     if uploaded_file.type == "application/pdf":
